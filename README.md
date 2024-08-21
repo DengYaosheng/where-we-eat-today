@@ -24,3 +24,10 @@ sudo gpsd /dev/ttyUSB0 -F /var/run/gpsd.sock
 
 Android/iOS: 在移动设备上，通常会使用原生API来获取GPS数据，如Android的LocationManager或iOS的CoreLocation。这些API更适合移动应用开发，而不是在Python中直接获取。
 https://developer.apple.com/documentation/corelocation/cllocationmanager
+
+# Kivy or BeeWare
+Kivy可以在Android设备上运行Python代码，同时支持JNI调用。
+-pip install kivy
+
+需要首先在Android Studio中创建一个新的Android项目，并设置权限和API调用AndroidManifest.xml.
+
