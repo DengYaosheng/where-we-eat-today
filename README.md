@@ -31,3 +31,4 @@ Kivy可以在Android设备上运行Python代码，同时支持JNI调用。
 
 需要首先在Android Studio中创建一个新的Android项目，并设置权限和API调用AndroidManifest.xml.
 
+API?
